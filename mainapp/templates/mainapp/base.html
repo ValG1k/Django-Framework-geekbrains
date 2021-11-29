@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+   {% block title %}
+        <title>Title</title>
+    {% endblock %}
+
+    {% block css %}
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+	<link rel="stylesheet" href="{% static 'fonts/font-awesome/css/font-awesome.css' %}">
+    {% endblock %}
+
+    {% block js %}
+    {% endblock %}
+
+</head>
+
+{% block container %}
+
+{% endblock %}
+
+
+    {% block footer %}
+
+
+{% endblock %}
+</body>
+</html>
